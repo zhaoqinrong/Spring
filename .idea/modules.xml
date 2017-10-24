@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Aop_logger/Spring_Aop_logger.iml" filepath="$PROJECT_DIR$/Spring_Aop_logger/Spring_Aop_logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_annotation/Spring_annotation.iml" filepath="$PROJECT_DIR$/Spring_annotation/Spring_annotation.iml" />
     </modules>
   </component>
 </project>
