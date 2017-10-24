@@ -1,0 +1,3 @@
+使用注解不需要配置切入点
+使用@Aspectj配置增强类
+使用    @Before(value = "execution(* cn.bdqn.Spring_aop_04_AspectJAndAnnotion.Book.*(..))")来配置增强类型,和应用在什么类上面

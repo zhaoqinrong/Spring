@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd  http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <bean id="book" class="cn.bdqn.cn.bdqn.Spring_aop_around.Book"/>
+    <bean id="mybook" class="cn.bdqn.cn.bdqn.Spring_aop_around.Mybook"/>
+    <aop:config>
+        <!--配置切点,被增强方法-->
+        <aop:pointcut id="point" expression="execution(* cn.bdqn.Spring_aop_02_after.Book.*(..))"/>
+        <!--配置切面,增强方法-->
+        <aop:aspect ref="mybook">
+            <aop:around method="around" pointcut-ref="point"/>
+        </aop:aspect>
+    </aop:config>
+
+
+</beans>

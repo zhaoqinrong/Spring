@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd  http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <bean id="book" class="cn.bdqn.Spring_aop_01_before.Book"/>
+    <bean id="mybook" class="cn.bdqn.Spring_aop_01_before.Mybook"/>
+    <aop:config>
+        <!--使用表达式来表示哪些方法作为切入点-->
+        <aop:pointcut id="pointcut" expression="execution(* cn.bdqn.Spring_aop_01_before.Book.*(..))"/>
+        <!--设置切面,ref来配置增强类,即增强方法的来源-->
+        <aop:aspect ref="mybook">
+            <!--把这个增强用到pointcut这个切点,使用pointcut-ref method 设置增强类型-->
+            <aop:before method="before" pointcut-ref="pointcut"/>
+        </aop:aspect>
+
+
+    </aop:config>
+
+</beans>
