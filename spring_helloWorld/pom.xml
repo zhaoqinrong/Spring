@@ -5,76 +5,80 @@
 	<artifactId>Spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+    <parent>
+        <groupId>cn.bdqn.Spring</groupId>
+        <artifactId>Spring</artifactId>
+        <version>4.0.0</version>
+    </parent>
+    <!--<dependencies>
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework/spring-core &ndash;&gt;
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
             <version>4.3.12.RELEASE</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework/spring-beans &ndash;&gt;
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-beans</artifactId>
             <version>4.3.12.RELEASE</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+        &lt;!&ndash; https://mvnrepository.com/artifact/log4j/log4j &ndash;&gt;
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework/spring-context &ndash;&gt;
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>4.3.12.RELEASE</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-expression -->
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework/spring-expression &ndash;&gt;
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-expression</artifactId>
             <version>4.3.12.RELEASE</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework/spring-aop &ndash;&gt;
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aop</artifactId>
             <version>4.3.12.RELEASE</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.aspectj/aspectjweaver &ndash;&gt;
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
             <version>1.8.12</version>
-        </dependency><!-- https://mvnrepository.com/artifact/aopalliance/aopalliance -->
+        </dependency>&lt;!&ndash; https://mvnrepository.com/artifact/aopalliance/aopalliance &ndash;&gt;
         <dependency>
             <groupId>aopalliance</groupId>
             <artifactId>aopalliance</artifactId>
             <version>1.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-aspects -->
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework/spring-aspects &ndash;&gt;
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
             <version>4.3.12.RELEASE</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework/spring-jdbc &ndash;&gt;
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
             <version>4.3.12.RELEASE</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-tx -->
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework/spring-tx &ndash;&gt;
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>
             <version>4.3.12.RELEASE</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        &lt;!&ndash; https://mvnrepository.com/artifact/mysql/mysql-connector-java &ndash;&gt;
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -90,7 +94,7 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core -->
+        &lt;!&ndash; https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core &ndash;&gt;
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-core</artifactId>
@@ -109,5 +113,5 @@
         </dependency>
 
 
-    </dependencies>
+    </dependencies>-->
 </project>

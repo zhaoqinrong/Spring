@@ -1,0 +1,33 @@
+INDEX VERSION 1.126
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3321828257.index
+\SMBMS_C01_01\src
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\905564814.index
+\sjlx\src
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3286286140.index
+\ServletDemo\src
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3906799757.index
+\MyBatis_servlet_demo\src
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1971673299.index
+\jsp_001\src
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3946076790.index
+\store_v2.0\src
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\306570968.index
+\store_v2.0\src
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2277691867.index
+\web_001\src
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\116844250.index
+\jsAndAjax\src
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1228417779.index
+\store_v2.0\src
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2022401038.index
+\store_v2.0\src
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4026316283.index
+\JNDI\src
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4052023877.index
+\store_v2.0\src
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1772957336.index
+\news\src
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1923737090.index
+\store_v2.0\src
+E:\MyEclipse 10\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\88448728.index
+\store_v2.0\src
